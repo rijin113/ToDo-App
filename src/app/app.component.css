@@ -1,0 +1,77 @@
+#title1{
+    color:white;
+}
+.fullform{
+    background-image: url(../assets/images/background.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    opacity:1;
+
+
+}
+#addtolist{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color:white;
+
+}
+#addtolist td, #addtolist th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+ 
+#addtolist tr:hover {background-color: rgb(177, 118, 79,0.3);}
+
+#addtolist th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background:rgba(231, 140, 104, 0.4);
+    color: white;
+
+  }
+#addtolist td{
+    text-align: center;
+}
+.remove{
+    position: relative;
+    left:10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background:rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 4px;
+
+}
+.complete{
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    background:rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 4px;
+
+}
+
+#newTodo {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background:rgba(243, 140, 99, 0.6);
+    width: 100%;
+    
+    opacity:1;
+  
+
+}
+
+#newTodo:hover {background-color: rgba(247, 154, 93, 0.5)}

@@ -1,0 +1,24 @@
+
+<div class = "fullform">
+  <h1 id = "title1" style = "text-align: center;" >{{title}} </h1>
+  <input type="text" id= "newTodo" #newTodo (keyup.enter) = "init_todo(newTodo.value)" (keyup.enter) = "newTodo.value=''" placeholder="Enter new task.."/>
+
+  <!-- ** (ngsubmit) ** <input id = "newadd" type = "text" placeholder = "Enter to Add.." onsubmit = "init_todo(newadd.value)"/> -->
+
+  <table id = "addtolist">
+    <tr>
+      <th>Tasks</th>
+      <th>Progress</th>
+      <th></th>
+      <th></th>
+
+    </tr>
+    <tr *ngFor="let todo of todo">
+      <td>{{todo.text}}</td>
+      <td>{{todo.progress ? "&#x02611;" :  "&#x02612;"}}</td>
+      <td><button class = "complete" (click) = "complete(todo.text)" >Mark as Complete</button></td>
+      <td><button class = "remove" (click) = "remove(todo.text)" >Remove</button></td>
+    </tr>
+  </table> 
+
+</div>
