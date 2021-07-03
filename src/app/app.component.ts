@@ -48,8 +48,9 @@ export class AppComponent {
         this.todo.splice(i,1);
       }
 /** Once the remove button is clicked, a for loop is created that iterates through the todo array.
- * Then it tries to match todo.text or index collected when the remove button was clicked with every attribute "text" in the array.
- * If the if statement is carried out, then the index of the object is recorded and spliced/removed from the array.
+ * Then it tries to match (todo.text) or (index) parameter with every attribute "text" in the array.
+ * Note: (todo.text) or (index) parameter is the value of text when the remove button is clicked. 
+ * If the statement is carried out, then that particular index of the array is recorded and spliced/removed from the array.
 */
     }
   }
