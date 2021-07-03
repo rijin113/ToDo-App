@@ -2,8 +2,6 @@
 <div class = "fullform">
   <h1 id = "title1" style = "text-align: center;" >{{title}} </h1>
   <input type="text" id= "newTodo" #newTodo (keyup.enter) = "init_todo(newTodo.value)" (keyup.enter) = "newTodo.value=''" placeholder="Enter new task.."/>
-
-    <!-- ** (ngsubmit) ** <input id = "newadd" type = "text" placeholder = "Enter to Add.." onsubmit = "init_todo(newadd.value)"/> -->
   <table id = "addtolist">
     <tr>
       <th>Tasks</th>
@@ -25,10 +23,7 @@
     These functions are written in app.component.ts-->
     </tr>
   </table> 
-
 </div>
-
-
     <!--Next Steps
      - instead of having a general title "Welcome", I can maybe connect it with an api that generates 
        quotes randomly and prints it on load.

@@ -57,11 +57,7 @@ export class AppComponent {
     for (var j=0; j<this.todo.length;j++){
       if (this.todo[j].text == completed_item){
         this.todo[j].progress = true;
-        
       }
-
     }
-    
   }
-
 }
