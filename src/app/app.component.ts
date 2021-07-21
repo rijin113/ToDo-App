@@ -11,23 +11,9 @@ export class AppComponent {
   title = "Welcome to your todo list!";
   todo = [
     {
-      text: 'Buy vegetables quickly', 
-      progress: true
-    },
-    {
-      text: 'Wash the dishes by 7 pm', 
+      text: 'Eg. Complete Homework by 7 pm', 
       progress: false
-    },
-    {
-      text: 'Complete Homework',
-      progress: true
-    },
-
-    {
-      text: 'Read Book for 30 mins', 
-      progress: false
-    },
-
+    }
   ];
   /** on submit, the html file calls the function below where todo.text is replaced by the variable new_add
    * once called, it creates a new object with new attributes and pushes it into the array above 
