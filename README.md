@@ -26,11 +26,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-## Programmed using:
+## Programmed using
 
 Angular(TypeScript), Node.js, HTML and CSS
 
-## Next Steps:
+## Next Steps
 
 1. Use sessionStorage to record each todo item so that everytime you reload, the rendered templates do not reset. 
 2. Make the list multilingual for better user interactivity
