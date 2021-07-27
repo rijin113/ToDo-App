@@ -37,7 +37,7 @@ Angular (TypeScript), Node.js, HTML and CSS
 ## Next Steps
 
 1. Use sessionStorage or another database to record each todo item so that everytime you reload, the rendered templates do not reset. 
-2. Add a priority coloumn with each todo item added
+2. Add a priority column with each todo item added
 3. Make the list multilingual for better user interactivity
 
 
