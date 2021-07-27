@@ -7,7 +7,7 @@
     font-family: 'Encode Sans SC', sans-serif;
     font-weight:bold;
 }
-/* When you focus and type on the input field, the color now will be be white */
+/* When you focus and start typing in the input field, the color now will be white */
 input:focus {
     color: white;
 }
