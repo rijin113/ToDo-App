@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Importing Modules
 
-Run `npm install` to import all the neccessary node modules such as bootstrap, jquery, popper.js, etc.
+Run `npm install` to import all the neccessary node modules such as Bootstrap, Jquery, Popper.js, etc.
 
 ## Development server
 
