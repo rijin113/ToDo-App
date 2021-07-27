@@ -7,6 +7,10 @@
     font-family: 'Encode Sans SC', sans-serif;
     font-weight:bold;
 }
+/* When you focus and type on the input field, the color now will be be white */
+input:focus {
+    color: white;
+}
 .fullform{
     background-image: url(../assets/images/background.jpg);
     position: fixed;
